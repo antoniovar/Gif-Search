@@ -1,0 +1,11 @@
+.footer{
+  font-size: 20px;
+  color:#616b80;
+  position:absolute;
+  left:1rem;
+  bottom:0px;
+}
+a{
+  margin-left:3px;
+  color: #9099ac;
+}
