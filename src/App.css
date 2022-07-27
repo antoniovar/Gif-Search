@@ -1,0 +1,45 @@
+body {
+  position: relative;
+  min-height: 100vh;
+  background-color: #282c34;
+  color: #616b80;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form{
+  margin-top: 2rem;
+}
+.search-bar{
+  background-color: #616b80;
+  border: solid;
+  color: #282c34;
+  padding: 0.5rem ;
+  
+  margin-right: 0.5rem;
+  height: 25px;
+  width: 15rem;
+  border-radius: 12%;
+}
+.search-bar::placeholder{
+  font-size: 15px;
+  font-weight: bold;
+  color: #282c34;
+}
+
+button{
+  background-color: #282c34;
+  border: none;
+  font-size: 20px;
+  color:#616b80;
+  text-align: center;
+}
+button:hover{
+  color:black;
+}
+
